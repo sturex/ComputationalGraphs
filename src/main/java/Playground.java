@@ -46,8 +46,7 @@ public class Playground {
                                 .transform(Double::intValue), (integer, integer2) -> integer * integer2)
                         .transform(String::valueOf), String::concat);
 
-        //
-
+        // get the result
         IntStream.range(0, 100).forEach(i -> System.out.println(result.get()));
 
     }

@@ -8,6 +8,8 @@ Declarative style. Type safe.
 
 The drawing visualizes a computational graph with single output node as a supplier of String result. The inputs are suppliers of variables of different types.
 
+![Alt text](src/main/resources/img/cg.png?raw=true "Static layout")
+
 Here is how to declare the above computational graph.
 
 ``` java 
