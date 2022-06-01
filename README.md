@@ -48,7 +48,7 @@ Supplier<String> result = Nodes.node(() -> "Result: ")
                 .transform(String::valueOf), String::concat);
 ```
 
-The just get a result.
+Then just get a result.
 ``` java
 IntStream.range(0, 100).forEach(i -> System.out.println(result.get()));
 ```
